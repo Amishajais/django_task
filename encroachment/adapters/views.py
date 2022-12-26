@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets, status
-from adapters.models.models import Encroachment_table
+from encroachment.models.models import Encroachment_table
 from rest_framework.response import Response
-from ..serializers.serializers import EncroachmentSerializer
+from .serializers import EncroachmentSerializer
 
 
 # Create your views here.

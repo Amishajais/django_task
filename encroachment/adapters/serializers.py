@@ -1,4 +1,4 @@
-from adapters.models.models import Encroachment_table
+from encroachment.models.models import Encroachment_table
 from rest_framework import serializers
 
 class EncroachmentSerializer(serializers.HyperlinkedModelSerializer):
